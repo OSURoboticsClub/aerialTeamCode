@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Running automated test script"
+
+sudo -s
+mavproxy.py --master=/dev/ttyS0 --baudrate 57600 --aircraft MyCopter > $1
+
