@@ -1,3 +1,5 @@
+#https://gist.github.com/dbaldwin/9185b702091148580fa836c1911f8735
+#
 from dronekit import connect, VehicleMode, LocationGlobalRelative
 from pymavlink import mavutil
 import time
